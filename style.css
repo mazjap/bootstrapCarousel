@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-.carousel {
+#carousel {
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .carousel-item {
@@ -41,13 +42,15 @@
     background-image: url('src/img_5.jpg');
 }
 
-.cards {
+#cards {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .card {
+    display: inline-flex;
     width: 30%;
-    display: inline-block;
     text-align: center;
     padding: 10px;
 }
